@@ -1,0 +1,47 @@
+
+    .button {
+        text-align: center;
+       
+        width: 99%;
+        padding: 0.5rem;
+        border: 2px solid transparent;
+        background-color: #030301;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        margin:10px;
+        padding:10px;
+    }
+    .container{
+    width:100%
+    }
+    input:not(:placeholder-shown) {
+        padding-top: 10px;
+        padding-bottom: 2px;
+      }
+      button:hover
+{
+  box-shadow:3px 4px 3px ;
+  color: #fdfdfd;
+}
+button:active
+{
+  box-shadow: none;
+
+}
+button:hover
+{
+  box-shadow:1px 2px 1px ;
+  background:rgb(240, 216, 0) ;
+  color:black
+}
+button:active
+{
+  box-shadow: none;
+
+}
+button:link
+{
+  color:rgb(0, 0, 0)
+}
